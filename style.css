@@ -7,6 +7,8 @@
 
 body {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -18,8 +20,28 @@ body {
   height: 640px;
   width: 640px;
   border: 1px solid #333;
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
 }
 
 .grid-square {
+  background-color: white;
   border: 1px solid #333;
+}
+
+#btn {
+  background-color: blue;
+  margin-top: 10px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
 }
